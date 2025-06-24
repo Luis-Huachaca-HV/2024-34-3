@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.log
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# Datos y archivos grandes
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.db
+*.sqlite
+*.zip
+*.tar.gz
+*.tar
+*.gz
+*.7z
+*.bak
+*.tmp
+*.swp
+*.swo
+.DS_Store
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Entornos virtuales
+env/
+venv/
+ENV/
+.venv/
+
+# Salidas de programas
+word_counts.txt
+random_words.txt
+
+# Otros
+*.egg-info/
+dist/
+build/
+coverage/
+*.egg
+*.out
+*.pid
+
+# Kafka dashboard build
+kafka-dashboard/backend/node_modules/
+kafka-dashboard/frontend/node_modules/
